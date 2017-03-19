@@ -47,7 +47,7 @@ import matplotlib.pyplot as plt                                   # To make the 
 from tensorflow.examples.tutorials.mnist import input_data        # To easily get the dataset if you have tensorflow already installed
                                                                   # If you don't, see at the line where we load the data
 
-n_inputs = 729    #mnist images are 27*27
+n_inputs = 784    #mnist images are 28*28
 n_outputs = 10
 
 relu_units1 = 128
