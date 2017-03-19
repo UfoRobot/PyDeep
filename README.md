@@ -13,10 +13,6 @@ A pure-python / numpy deep learning library
 
 The code is flexible and easily extensible to implement new layers, costs or optimiser.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
 The Library has the following dependencies:
