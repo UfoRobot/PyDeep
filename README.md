@@ -2,6 +2,17 @@
 
 A pure-python / numpy deep learning library
 
+## Features
+- Linear Transformation Layer
+- Convolutional layer
+- MaxPool layer
+- RELU activation fucntion
+- Sigmoid activation function 
+- Cross Entropy cost
+- Mini-Batch Gradient Descent
+
+The code is flexible and easily extensible to implement new layers, costs or optimiser.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
