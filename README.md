@@ -29,7 +29,8 @@ in your project import PyDeep
 from PyDeep import *
 ```
 
-Here is a little demo: we train a network on the mnist dataset. The network layers will be:
+### Example
+We train a network on the mnist dataset. The network layers will be:
 - Linear trannsformation with 128 units and RELU activation
 - Linear trannsformation with 128 units and RELU activation
 - Linear transoformation with 10 units and Sigmoid activation
