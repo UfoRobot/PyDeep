@@ -32,7 +32,7 @@ class CrossEntropy(Cost):
 
         # compute cross entropy
         return np.add(-predictions_of_interest, logsumexp(predictions_of_interest, axis=1))
-
+    
     def start_back_prop(self, prediction, test):
         prediction += 0.000000000001     # for numerical stability in later division
         return np.divide(test, prediction).transpose()

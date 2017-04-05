@@ -13,6 +13,14 @@ class Optimiser:
         return
 
 
+    @abc.abstractmethod
+    def rescale_learning_rate(self, factor):
+        """
+        Every layer optimiser MUST implement this method, that let the learning rate to be rescaled
+        """
+        return
+
+
 class GD(Optimiser):
 
     def __init__(self, learning_rate=0.5):
